@@ -1,0 +1,99 @@
+.gist {
+    width: 700px;
+    border-bottom: 1px solid #dedede;
+    padding-bottom: 30px;
+    margin: 20px auto;
+    padding: 0 10px;
+}
+
+.gist_top {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.gist_user {
+    display: flex;
+    align-items: center;
+}
+
+.gist_avatar {
+    width: 45px;
+    height: 45px;
+    border-radius: 100px;
+    overflow: hidden;
+}
+
+.gist_avatar img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.gist_username {
+    color: #0265D6;
+    margin-left: 10px;
+    font-weight: 600;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.gist_icons {
+    display: flex;
+    align-items: center;
+}
+
+.gist_icons > div {
+    display: flex;
+    align-items: center;
+}
+
+.gist_icons img {
+    width: 22px;
+}
+
+.gist_icons span, .gist_icons a {
+    color: #0265D6;
+    margin-right: 20px;
+    font-weight: 600;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.gist_date {
+    color: gray;
+    font-size: 14px;
+    font-weight: 600;
+    margin-right: 15px;
+}
+
+.gist_desc
+{
+    font-size: 20px;
+    font-weight: 600;
+    word-break: break-all;
+}
+
+.gist_files {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.gist_files > div {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+.gist_files img {
+    width: 22px;
+}
+
+.gist_files span
+{
+    color: #0265D6;
+    margin-right: 20px;
+    margin-left: 5px;
+    font-weight: 600;
+}
